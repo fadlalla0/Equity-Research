@@ -20,6 +20,26 @@ An interactive web application built with Streamlit for performing equity resear
     -   View major economic indicators (e.g., GDP, CPI, Unemployment Rate).
     -   Analyze historical P/E ratios for different market sectors and industries.
 
+## Project Structure
+```
+Equity-Research/
+├── app.py # Main Streamlit application file
+├── pages/ # Contains the different pages of the application
+│ ├── comparison.py
+│ ├── economics.py
+│ ├── home.py
+│ ├── portfolio_management.py
+│ └── stock_search.py
+├── helper_functions.py # Functions for API calls and data processing
+├── utils.py # Utility functions used across the application
+├── Stock.py # Class representing a stock
+├── MPT.py # Functions for Modern Portfolio Theory calculations
+├── requirements.txt # Project dependencies
+├── README.md # Project README file
+└── .streamlit/
+└── config.toml # Streamlit configuration
+```
+
 ## Setup and Installation
 
 1.  **Clone the repository:**
