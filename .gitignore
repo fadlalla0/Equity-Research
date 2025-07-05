@@ -1,0 +1,6 @@
+.env
+.streamlit/*
+!.streamlit/config.toml
+portfolio.csv
+__pycache__/
+prices/
